@@ -1,0 +1,18 @@
+{
+  "name": "my-hex-engine-game",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@hex-engine/2d": "^0.8.1"
+  },
+  "devDependencies": {
+    "hex-engine-scripts": "^0.8.1",
+    "typescript": "^3.9.2"
+  },
+  "scripts": {
+    "start": "hex-engine-scripts dev",
+    "dev": "hex-engine-scripts dev",
+    "build": "hex-engine-scripts build",
+    "test": "hex-engine-scripts test"
+  }
+}
